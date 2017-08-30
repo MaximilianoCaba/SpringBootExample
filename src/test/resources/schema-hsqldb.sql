@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS Teacher;
+
+CREATE TABLE Teacher (
+  ID int identity primary key,
+  FIRSTNAME VARCHAR(50),
+  LASTNAME VARCHAR(50),
+  ASSIGNATURE VARCHAR(50)
+);
+
+INSERT INTO Teacher (ID, FIRSTNAME, LASTNAME, ASSIGNATURE) VALUES (1, 'Ramon', 'Lopez', 'matematica');
+INSERT INTO Teacher (ID, FIRSTNAME, LASTNAME, ASSIGNATURE) VALUES (2, 'Juan', 'Lopez', 'lengua');
+INSERT INTO Teacher (ID, FIRSTNAME, LASTNAME, ASSIGNATURE) VALUES (3, 'Pepe', 'Lopez', 'Fisica cuantica 5');
+
